@@ -33,7 +33,7 @@ createRoot(document.getElementById('root')!).render(
             <AppRoutes />
           </TaskProvider>
         </ModalsProvider>
-      </AuthProvider>,
+      </AuthProvider>
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 )
