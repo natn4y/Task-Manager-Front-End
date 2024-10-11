@@ -10,10 +10,10 @@ export function TaskList() {
       <table className="border-gray-300 bg-white shadow-lg rounded-lg min-w-full">
         <thead>
           <tr className="bg-white text-gray-700">
-            <th className="px-4 py-2 border-b text-center">Title</th>
+            <th className="px-4 py-2 border-b min-w-[200px] text-center">Title</th>
             <th className="px-4 py-2 border-b text-center">Status</th>
             <th className="px-4 py-2 border-b text-center">User</th>
-            <th className="px-4 py-2 border-b text-center">Description</th>
+            <th className="px-4 py-2 border-b min-w-[300px] text-center">Description</th>
             <th className="px-4 py-2 border-b text-center">Actions</th>
           </tr>
         </thead>
